@@ -15,18 +15,18 @@
      3. check-in your question to your team repository 
 
 ## Participants (no roles yet): 
-- 
-- 
-- 
-- 
-- 
-- 
+-  Kevin Do 
+-  Sopheavisal Lim  
+-  Martin Viet Duc Oertel
+-  Julia Schultalbers 
+-  Jonas Weber
+-  Kelly Xie 
 
 ## Questions 
-- [STUDENT 1]:
-- [STUDENT 2]: 
-- [STUDENT 3]:
-- [STUDENT 4]:
-- [STUDENT 5]:
-- [STUDENT 6]:
+- [Sopheavisal Lim]: Wie kann man es dafür sorgen, dass die Kinder ihre Motivationen beibehalten?
+- [Kelly Xie]: Wie viele Mitarbeitende werden pro Gruppe für die Einsatzplanung benötigt?
+- [Jonas Weber]: Wie genau können wir, falls erforderlich, einen finanziellen Rahmen festlegen und den Ressourcenverbrauch planen?
+- [Kevin Do]: Gibt es die Möglichkeit, bei Ausfällen durch Ersatzkräfte zu unterstützen? Wären zudem Fortbildungen denkbar, um Zuständigkeitsbereiche flexibler zu gestalten?
+- [Julia Schultalbers]: Wie können wir sicherstellen, dass wir die Kinder nicht beeinflussen, da wir bereits eine Vorauswahl an Gerichten treffen und oder gibt es eine Möglichkeit, Extrawünsche anzugeben?
+- [Martin Viet Duc Oertel]: Wie groß ist der Puffer für zusätzliches Essen, falls Kinder zum Beispiel eine zweite Portion möchten?
 
