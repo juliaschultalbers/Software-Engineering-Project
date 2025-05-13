@@ -23,8 +23,16 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 3 | add: 27.04.25 | Sopheavisal Lim | As a caregiver, I want to easily propose vacation days digitally within my group so that no group is left without enough staff. | 3 | 1 | Streamline Caregiver Time-Off Requests to Prevent Staffing Gaps | | not yet
 4 | | | | | | | |
 5 | | | | | | | |
-...
-
+6 | | | | | | | |
+7 | | | | | | | |
+8 | | | | | | | |
+9 | | | | | | | |
+10 | | | | | | | |
+11 | | | | | | | |
+12 | | | | | | | |
+13 | | | | | | | |
+14 | | | | | | | |
+15 | | | | | | | |
 
 # User Stories : Prozess 2
 Put yourself in your role and define user stories for process 2. 
