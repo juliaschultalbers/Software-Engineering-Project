@@ -23,11 +23,11 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 3 | add: 27.04.25 | Sopheavisal Lim | As a caregiver, I want to easily propose vacation days digitally within my group so that no group is left without enough staff. | 3 | 1 | Streamline Caregiver Time-Off Requests to Prevent Staffing Gaps | | not yet
 4 | add: 27.04.25 | Kelly Xie | As a child, I want to select favorite meals by clicking pictures, so that my preferences are considered in the meal planning. | 2 | 2 | | | not yet
 5 | add: 27.04.25 | Kelly Xie | As a supporting team member, I want to receive red-light alerts on my iPad when staffing falls below safe levels, so that I can stay longer or step in. | 2 | 1 | | | not yet
-6 | add: 15.05.25 | Jonas Weber | As a manager, I want to upload schedule plans in Excel format, so that I can easily import them into the online planning system. | 3 | 1 | Digital Planning and File Integration | not yet
-7 | add: 15.05.25 | Jonas Weber | As a manager, I want to manage multiple versions of a schedule plan, so that I can switch back to previous versions when needed. | 2 | 1 | Version Control in Scheduling | not yet
-8 | add: 15.05.25 | Jonas Weber | As a manager, I want to assign caretakers to specific roles, so that it's easier to visually distinguish between static and dynamic planned workers. | 2 | 1 | Visual Role Management | not yet
-9 | add: 15.05.25 | Jonas Weber | As a manager, I want the schedule to be visualized as a color-coded map of the building and its rooms, so that it becomes more intuitive to review and adjust plans. | 3 | 2 | Visual Scheduling Interface | not yet
-10 | add: 15.05.25 | Jonas Weber | As a caretaker, I want to assign my holiday days to specific dates and see how many others have requested the same dates, so that I can plan my time off accordingly. | 2 | 1 | Caretaker Holiday Coordination | not yet
+6 | add: 15.05.25 | Jonas Weber | As a manager, I want to upload schedule plans in Excel format, so that I can easily import them into the online planning system. |  |  | Digital Planning and File Integration | 
+7 | add: 15.05.25 | Jonas Weber | As a manager, I want to manage multiple versions of a schedule plan, so that I can switch back to previous versions when needed. |  |  | Version Control in Scheduling | 
+8 | add: 15.05.25 | Jonas Weber | As a manager, I want to assign caretakers to specific roles, so that it's easier to visually distinguish between static and dynamic planned workers. |  |  | Visual Role Management | 
+9 | add: 15.05.25 | Jonas Weber | As a manager, I want the schedule to be visualized as a color-coded map of the building and its rooms, so that it becomes more intuitive to review and adjust plans. |  |  | Visual Scheduling Interface | 
+10 | add: 15.05.25 | Jonas Weber | As a caretaker, I want to assign my holiday days to specific dates and see how many others have requested the same dates, so that I can plan my time off accordingly. |  |  | Caretaker Holiday Coordination | 
 11 | | | | | | | |
 12 | | | | | | | |
 13 | | | | | | | |
