@@ -28,9 +28,9 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 8 | add: 15.05.25 | Jonas Weber | As a manager, I want to assign caretakers to specific roles, so that it's easier to visually distinguish between static and dynamic planned workers. |  |  | Visual Role Management | 
 9 | add: 15.05.25 | Jonas Weber | As a manager, I want the schedule to be visualized as a color-coded map of the building and its rooms, so that it becomes more intuitive to review and adjust plans. |  |  | Visual Scheduling Interface | 
 10 | add: 15.05.25 | Jonas Weber | As a caretaker, I want to assign my holiday days to specific dates and see how many others have requested the same dates, so that I can plan my time off accordingly. |  |  | Caretaker Holiday Coordination | 
-11 | | | | | | | |
-12 | | | | | | | |
-13 | | | | | | | |
+11 | add: 19.05.25 | Julia Schultalbers | As a chef, I want to create meal plans based on children's voting, so that meals match children's preferences. | | | | |
+12 | add: 19.05.25 | Julia Schultalbers | As management, I want blocked vacation periods (e.g., during events) to be reflected in the system, so teachers cannot request leave during critical days. | | | | |
+13 | add: 19.05.25 | Julia Schultalbers | As a caregiver, I want to log my unplanned absence (e.g., due to illness) through the app, so the manager is informed instantly. | | | | |
 14 | | | | | | | |
 15 | | | | | | | |
 
