@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pnml xmlns="http://www.informatik.hu-berlin.de/top/pnml/ptNetb">
+  <net active="true" id="TAPN1" type="P/T net">
+    <place displayName="true" id="standby" initialMarking="1" invariant="&lt; inf" name="standby" nameOffsetX="-11" nameOffsetY="19" positionX="375" positionY="210"/>
+    <place displayName="true" id="voting" initialMarking="0" invariant="&lt; inf" name="voting" nameOffsetX="34" nameOffsetY="-3" positionX="660" positionY="330"/>
+    <place displayName="true" id="new_meal_plan" initialMarking="0" invariant="&lt; inf" name="new_meal_plan" nameOffsetX="36" nameOffsetY="-2" positionX="780" positionY="195"/>
+    <place displayName="true" id="votes" initialMarking="0" invariant="&lt; inf" name="votes" nameOffsetX="28" nameOffsetY="-5" positionX="840" positionY="255"/>
+    <place displayName="true" id="edit_meal_plan" initialMarking="0" invariant="&lt; inf" name="edit_meal_plan" nameOffsetX="47" nameOffsetY="0" positionX="660" positionY="105"/>
+    <place displayName="true" id="request_accepted" initialMarking="0" invariant="&lt; inf" name="request_accepted" nameOffsetX="-1" nameOffsetY="34" positionX="450" positionY="405"/>
+    <place displayName="true" id="edit_group" initialMarking="0" invariant="&lt; inf" name="edit_group" nameOffsetX="0" nameOffsetY="0" positionX="225" positionY="210"/>
+    <place displayName="true" id="edited_shift_plan" initialMarking="0" invariant="&lt; inf" name="edited_shift_plan" nameOffsetX="125" nameOffsetY="28" positionX="570" positionY="375"/>
+    <place displayName="true" id="staffing_gap" initialMarking="0" invariant="&lt; inf" name="staffing_gap" nameOffsetX="54" nameOffsetY="41" positionX="525" positionY="540"/>
+    <place displayName="true" id="waiting_for_vote" initialMarking="0" invariant="&lt; inf" name="waiting_for_vote" nameOffsetX="118" nameOffsetY="33" positionX="840" positionY="330"/>
+    <transition angle="90" displayName="true" id="request_voting" infiniteServer="false" name="request_voting" nameOffsetX="0" nameOffsetY="0" player="0" positionX="540" positionY="315" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="send_vote" infiniteServer="false" name="send_vote" nameOffsetX="40" nameOffsetY="2" player="0" positionX="960" positionY="285" priority="0" urgent="false"/>
+    <transition angle="225" displayName="true" id="request_edit_meal_plan" infiniteServer="false" name="request_edit_meal_plan" nameOffsetX="7" nameOffsetY="8" player="0" positionX="525" positionY="120" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="reset" infiniteServer="false" name="reset" nameOffsetX="27" nameOffsetY="1" player="0" positionX="615" positionY="240" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="send_meal_plan" infiniteServer="false" name="send_meal_plan" nameOffsetX="48" nameOffsetY="-1" player="0" positionX="870" positionY="150" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="reset2" infiniteServer="false" name="reset2" nameOffsetX="34" nameOffsetY="-1" player="0" positionX="630" positionY="180" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="reset1" infiniteServer="false" name="reset1" nameOffsetX="28" nameOffsetY="7" player="0" positionX="540" positionY="270" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="vacation_request" infiniteServer="false" name="vacation_request" nameOffsetX="63" nameOffsetY="45" player="0" positionX="390" positionY="315" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="view_shift_plan" infiniteServer="false" name="view_shift_plan" nameOffsetX="53" nameOffsetY="-6" player="0" positionX="345" positionY="90" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="edit_group1" infiniteServer="false" name="edit_group1" nameOffsetX="47" nameOffsetY="3" player="0" positionX="285" positionY="180" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="add" infiniteServer="false" name="add" nameOffsetX="30" nameOffsetY="-3" player="0" positionX="90" positionY="225" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="update" infiniteServer="false" name="update" nameOffsetX="23" nameOffsetY="51" player="0" positionX="135" positionY="315" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="remove" infiniteServer="false" name="remove" nameOffsetX="43" nameOffsetY="44" player="0" positionX="180" positionY="390" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="done" infiniteServer="false" name="done" nameOffsetX="49" nameOffsetY="4" player="0" positionX="285" positionY="270" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="find_replacement" infiniteServer="false" name="find_replacement" nameOffsetX="10" nameOffsetY="49" player="0" positionX="495" positionY="450" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="reset3" infiniteServer="false" name="reset3" nameOffsetX="33" nameOffsetY="42" player="0" positionX="465" positionY="330" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="solution_found" infiniteServer="false" name="solution_found" nameOffsetX="105" nameOffsetY="18" player="0" positionX="585" positionY="465" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="report_sickness" infiniteServer="false" name="report_sickness" nameOffsetX="57" nameOffsetY="-10" player="0" positionX="285" positionY="360" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="ready_for_vote" infiniteServer="false" name="ready_for_vote" nameOffsetX="58" nameOffsetY="50" player="0" positionX="750" positionY="345" priority="0" urgent="false"/>
+    <arc id="A2" inscription="1" nameOffsetX="0" nameOffsetY="0" source="request_voting" target="voting" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="569" yCoord="330"/>
+      <arcpath arcPointType="false" id="1" xCoord="660" yCoord="342"/>
+    </arc>
+    <arc id="A5" inscription="1" nameOffsetX="0" nameOffsetY="0" source="send_vote" target="votes" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="959" yCoord="300"/>
+      <arcpath arcPointType="false" id="1" xCoord="869" yCoord="274"/>
+    </arc>
+    <arc id="A8" inscription="1" nameOffsetX="0" nameOffsetY="0" source="reset" target="standby" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="614" yCoord="255"/>
+      <arcpath arcPointType="false" id="1" xCoord="404" yCoord="226"/>
+    </arc>
+    <arc id="A9" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="6" source="standby" target="request_voting" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="402" yCoord="232"/>
+      <arcpath arcPointType="false" id="1" xCoord="549" yCoord="324"/>
+    </arc>
+    <arc id="A6" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="standby" target="request_edit_meal_plan" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="402" yCoord="217"/>
+      <arcpath arcPointType="false" id="1" xCoord="528" yCoord="145"/>
+    </arc>
+    <arc id="A10" inscription="1" nameOffsetX="0" nameOffsetY="0" source="request_edit_meal_plan" target="edit_meal_plan" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="547" yCoord="134"/>
+      <arcpath arcPointType="false" id="1" xCoord="660" yCoord="121"/>
+    </arc>
+    <arc id="A11" inscription="[0,inf)" nameOffsetX="5" nameOffsetY="-15" source="edit_meal_plan" target="send_meal_plan" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="689" yCoord="123"/>
+      <arcpath arcPointType="false" id="1" xCoord="869" yCoord="165"/>
+    </arc>
+    <arc id="A12" inscription="1" nameOffsetX="0" nameOffsetY="0" source="send_meal_plan" target="new_meal_plan" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="869" yCoord="165"/>
+      <arcpath arcPointType="false" id="1" xCoord="807" yCoord="202"/>
+    </arc>
+    <arc id="A14" inscription="1" nameOffsetX="0" nameOffsetY="0" source="reset2" target="standby" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="629" yCoord="195"/>
+      <arcpath arcPointType="false" id="1" xCoord="404" yCoord="223"/>
+    </arc>
+    <arc id="A13" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="20" source="new_meal_plan" target="reset2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="780" yCoord="208"/>
+      <arcpath arcPointType="false" id="1" xCoord="659" yCoord="195"/>
+    </arc>
+    <arc id="A14" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="votes" target="reset" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="840" yCoord="268"/>
+      <arcpath arcPointType="false" id="1" xCoord="644" yCoord="255"/>
+    </arc>
+    <arc id="A15" inscription="[5,inf)" nameOffsetX="19" nameOffsetY="-7" source="voting" target="reset1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="661" yCoord="337"/>
+      <arcpath arcPointType="false" id="1" xCoord="569" yCoord="285"/>
+    </arc>
+    <arc id="A16" inscription="1" nameOffsetX="0" nameOffsetY="0" source="reset1" target="standby" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="539" yCoord="285"/>
+      <arcpath arcPointType="false" id="1" xCoord="403" yCoord="230"/>
+    </arc>
+    <arc id="A17" inscription="[0,inf)" nameOffsetX="28" nameOffsetY="0" source="standby" target="view_shift_plan" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="385" yCoord="210"/>
+      <arcpath arcPointType="false" id="1" xCoord="360" yCoord="120"/>
+    </arc>
+    <arc id="A18" inscription="1" nameOffsetX="0" nameOffsetY="0" source="view_shift_plan" target="standby" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="360" yCoord="120"/>
+      <arcpath arcPointType="false" id="1" xCoord="332" yCoord="168"/>
+      <arcpath arcPointType="false" id="2" xCoord="379" yCoord="214"/>
+    </arc>
+    <arc id="A19" inscription="[0,inf)" nameOffsetX="11" nameOffsetY="-7" source="standby" target="edit_group1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="376" yCoord="219"/>
+      <arcpath arcPointType="false" id="1" xCoord="314" yCoord="195"/>
+    </arc>
+    <arc id="A20" inscription="1" nameOffsetX="0" nameOffsetY="0" source="edit_group1" target="edit_group" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="284" yCoord="195"/>
+      <arcpath arcPointType="false" id="1" xCoord="252" yCoord="216"/>
+    </arc>
+    <arc id="A21" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="edit_group" target="update" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="230" yCoord="236"/>
+      <arcpath arcPointType="false" id="1" xCoord="155" yCoord="325"/>
+    </arc>
+    <arc id="A22" inscription="1" nameOffsetX="0" nameOffsetY="0" source="update" target="edit_group" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="154" yCoord="335"/>
+      <arcpath arcPointType="false" id="1" xCoord="210" yCoord="310"/>
+      <arcpath arcPointType="false" id="2" xCoord="235" yCoord="239"/>
+    </arc>
+    <arc id="A23" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="edit_group" target="remove" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="236" yCoord="239"/>
+      <arcpath arcPointType="false" id="1" xCoord="195" yCoord="390"/>
+    </arc>
+    <arc id="A24" inscription="1" nameOffsetX="0" nameOffsetY="0" source="remove" target="edit_group" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="199" yCoord="405"/>
+      <arcpath arcPointType="false" id="1" xCoord="241" yCoord="342"/>
+      <arcpath arcPointType="false" id="2" xCoord="240" yCoord="239"/>
+    </arc>
+    <arc id="A25" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="edit_group" target="add" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="225" yCoord="227"/>
+      <arcpath arcPointType="false" id="1" xCoord="109" yCoord="243"/>
+    </arc>
+    <arc id="A26" inscription="1" nameOffsetX="0" nameOffsetY="0" source="add" target="edit_group" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="109" yCoord="249"/>
+      <arcpath arcPointType="false" id="1" xCoord="202" yCoord="250"/>
+      <arcpath arcPointType="false" id="2" xCoord="227" yCoord="233"/>
+    </arc>
+    <arc id="A27" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="edit_group" target="done" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="250" yCoord="235"/>
+      <arcpath arcPointType="false" id="1" xCoord="294" yCoord="279"/>
+    </arc>
+    <arc id="A28" inscription="1" nameOffsetX="0" nameOffsetY="0" source="done" target="standby" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="304" yCoord="280"/>
+      <arcpath arcPointType="false" id="1" xCoord="377" yCoord="233"/>
+    </arc>
+    <arc id="A29" inscription="[0,inf)" nameOffsetX="4" nameOffsetY="1" source="standby" target="vacation_request" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="392" yCoord="239"/>
+      <arcpath arcPointType="false" id="1" xCoord="409" yCoord="325"/>
+    </arc>
+    <arc id="A30" inscription="1" nameOffsetX="0" nameOffsetY="0" source="vacation_request" target="request_accepted" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="404" yCoord="334"/>
+      <arcpath arcPointType="false" id="1" xCoord="456" yCoord="407"/>
+    </arc>
+    <arc id="A31" inscription="[0,inf)" nameOffsetX="-7" nameOffsetY="8" source="request_accepted" target="find_replacement" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="474" yCoord="431"/>
+      <arcpath arcPointType="false" id="1" xCoord="504" yCoord="470"/>
+    </arc>
+    <arc id="A33" inscription="[0,inf)" nameOffsetX="24" nameOffsetY="-2" source="edited_shift_plan" target="reset3" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="571" yCoord="384"/>
+      <arcpath arcPointType="false" id="1" xCoord="484" yCoord="350"/>
+    </arc>
+    <arc id="A34" inscription="1" nameOffsetX="0" nameOffsetY="0" source="reset3" target="standby" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="474" yCoord="345"/>
+      <arcpath arcPointType="false" id="1" xCoord="398" yCoord="237"/>
+    </arc>
+    <arc id="A35" inscription="1" nameOffsetX="0" nameOffsetY="0" source="find_replacement" target="staffing_gap" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="510" yCoord="480"/>
+      <arcpath arcPointType="false" id="1" xCoord="534" yCoord="541"/>
+    </arc>
+    <arc id="A32" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="staffing_gap" target="solution_found" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="549" yCoord="543"/>
+      <arcpath arcPointType="false" id="1" xCoord="594" yCoord="485"/>
+    </arc>
+    <arc id="A36" inscription="1" nameOffsetX="0" nameOffsetY="0" source="solution_found" target="edited_shift_plan" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="600" yCoord="465"/>
+      <arcpath arcPointType="false" id="1" xCoord="587" yCoord="404"/>
+    </arc>
+    <arc id="A37" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="standby" target="report_sickness" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="382" yCoord="237"/>
+      <arcpath arcPointType="false" id="1" xCoord="305" yCoord="370"/>
+    </arc>
+    <arc id="A38" inscription="1" nameOffsetX="0" nameOffsetY="0" source="report_sickness" target="request_accepted" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="304" yCoord="380"/>
+      <arcpath arcPointType="false" id="1" xCoord="450" yCoord="416"/>
+    </arc>
+    <arc id="A39" inscription="[0,4]" nameOffsetX="9" nameOffsetY="1" source="voting" target="ready_for_vote" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="689" yCoord="346"/>
+      <arcpath arcPointType="false" id="1" xCoord="760" yCoord="355"/>
+    </arc>
+    <arc id="A40" inscription="1" nameOffsetX="0" nameOffsetY="0" source="ready_for_vote" target="waiting_for_vote" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="769" yCoord="360"/>
+      <arcpath arcPointType="false" id="1" xCoord="840" yCoord="347"/>
+    </arc>
+    <arc id="A41" inscription="[0,inf)" nameOffsetX="0" nameOffsetY="0" source="waiting_for_vote" target="send_vote" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="868" yCoord="339"/>
+      <arcpath arcPointType="false" id="1" xCoord="959" yCoord="300"/>
+    </arc>
+  </net>
+  <k-bound bound="3"/>
+  <feature isGame="false" isTimed="true"/>
+</pnml>
