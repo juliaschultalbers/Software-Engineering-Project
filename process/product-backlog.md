@@ -39,8 +39,8 @@ Put yourself in your role and define user stories for process 2.
 
 Nr | added modified | product owner name | User story | Story point(s) | Priority | Epic | Feature | Done?
 -------- | -------- | -------- | -------- | -------- | --------  | --------   | --------   | -------- 
-1 | | | | | | | |
-2 | | | | | | | |
+1 | | Julia Schultalbers | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I better understand which food I am choosing. | 1 | 1 | | | not yet
+2 | | Julia Schultalbers | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 1 | | | not yet
 3 | | | | | | | |
 4 | | | | | | | |
 5 | | | | | | | |
