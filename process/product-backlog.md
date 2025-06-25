@@ -41,8 +41,8 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 -------- | -------- | -------- | -------- | -------- | --------  | --------   | --------   | -------- 
 1 | add: 25.06.25 | Julia Schultalbers | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I better understand which food I am choosing. | 1 | True | favorite meal | audio description for children | not yet
 2 | add: 25.06.25 | Julia Schultalbers | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | True | favorite meal | feedback for kitchen stuff | not yet
-3 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to know in time which ingredients I need to order from the food supplier, so that the ingredients are delivered in time | | 1 | favorite meal | ingredient planning | not yet
-4 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to be able to edit the meal plan, so that we can provide a varied meal plan with regional ingredients | | 2 | favorite meal | variation of meals | done
+3 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to know in time which ingredients I need to order from the food supplier, so that the ingredients are delivered in time | 1 | 1 | favorite meal | ingredient planning | not yet
+4 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to be able to edit the meal plan, so that we can provide a varied meal plan with regional ingredients | 1 | 2 | favorite meal | variation of meals | done
 5 | | | | | | | |
 6 | | | | | | | |
 7 | | | | | | | |
