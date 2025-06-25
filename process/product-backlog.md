@@ -39,14 +39,18 @@ Put yourself in your role and define user stories for process 2.
 
 Nr | added modified | product owner name | User story | Story point(s) | Priority | Epic | Feature | Done?
 -------- | -------- | -------- | -------- | -------- | --------  | --------   | --------   | -------- 
-1 | 25.06. | Julia Schultalbers | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I better understand which food I am choosing. | 1 | 2 | favorite meal | audio description for children | not yet
-2 | 25.06. | Julia Schultalbers | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 3 | favorite meal | feedback for kitchen stuff | not yet
+1 | add: 25.06. | Julia Schultalbers | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I better understand which food I am choosing. | 1 | 2 | favorite meal | audio description for children | not yet
+2 | add: 25.06. | Julia Schultalbers | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 3 | favorite meal | feedback for kitchen stuff | not yet
 3 | | | | | | | |
 4 | | | | | | | |
 5 | | | | | | | |
-...
-
-
-
-
-
+6 | | | | | | | |
+7 | | | | | | | |
+8 | | | | | | | |
+9 | | | | | | | |
+10 | | | | | | | |
+11 | | | | | | | |
+12 | | | | | | | |
+13 | | | | | | | |
+14 | | | | | | | |
+15 | | | | | | | |
