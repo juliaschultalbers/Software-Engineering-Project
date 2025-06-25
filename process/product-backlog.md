@@ -40,10 +40,10 @@ Put yourself in your role and define user stories for process 2.
 Nr | added modified | product owner name | User story | Story point(s) | Priority | Epic | Feature | Done?
 -------- | -------- | -------- | -------- | -------- | --------  | --------   | --------   | -------- 
 1 | add: 25.06.25 | Julia Schultalbers | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I better understand which food I am choosing. | 1 | 2 | favorite meal | audio description for children | not yet
-2 | add: 25.06.25 | Julia Schultalbers | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 3 | favorite meal | feedback for kitchen staff | not yet
-3 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to tag meals with allergens (e.g. gluten, nuts), so that the system can automatically warn , if a child is affected | 1 | 1 | favorite meal| allergen notice | not yet
+2 | add: 25.06.25 | Julia Schultalbers | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 3 | favorite meal | feedback for kitchen stuff | not yet
+3 | | | | | | | |
 4 | | | | | | | |
-5 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to track which meals were popular each week, so we can improve future meal plans based on the children's preferences | 1 | 3 |favorite meal | feedback for kitchen staff | not yet
+5 | | | | | | | |
 6 | | | | | | | |
 7 | | | | | | | |
 8 | | | | | | | |
