@@ -44,7 +44,7 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 3 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to know in time which ingredients I need to order from the food supplier, so that the ingredients are delivered in time | 2 | 1 | favorite meal | ingredient planning | not yet
 4 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to be able to edit the meal plan, so that we can provide a varied meal plan with regional ingredients | 1 | 2 | favorite meal | variation of meals | done
 5 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to tag meals with allergens (e.g. gluten, nuts), so that the system can automatically warn , if a child is affected | 1 | 1 | favorite meal | allergen notice | not yet
-6 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to track which meals were popular each week, so we can improve future meal plans based on the children's preferences | 1 | 3 | favorite meal | feedback for kitchen staff | not yet
+6 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to track which meals were popular each week, so we can improve future meal plans based on the children's preferences | 1 | 2 | favorite meal | feedback for kitchen staff | not yet
 7 | | | | | | | |
 8 | | | | | | | |
 9 | | | | | | | |
