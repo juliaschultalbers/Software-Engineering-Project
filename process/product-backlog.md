@@ -45,8 +45,8 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 4 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to be able to edit the meal plan, so that we can provide a varied meal plan with regional ingredients | 1 | 2 | favorite meal | variation of meals | done
 5 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to tag meals with allergens (e.g. gluten, nuts), so that the system can automatically warn , if a child is affected | 1 | 1 | favorite meal | allergen notice | not yet
 6 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to track which meals were popular each week, so we can improve future meal plans based on the children's preferences | 1 | 2 | favorite meal | feedback for kitchen staff | not yet
-7 | | | | | | | |
-8 | | | | | | | |
+7 | add: 30.06 | Sopheavisal Lim | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I understand better which food I am choosing. | 2 | 2 | False | Audio discription | not yet
+8 | add: 30.06 | Sopheavisal Lim | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 2 | False | Meal feedback | not yet
 9 | | | | | | | |
 10 | | | | | | | |
 11 | | | | | | | |
