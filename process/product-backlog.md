@@ -47,7 +47,7 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 6 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to track which meals were popular each week, so we can improve future meal plans based on the children's preferences | 1 | 2 | favorite meal | feedback for kitchen staff | not yet
 7 | add: 30.06 | Sopheavisal Lim | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I understand better which food I am choosing. | 2 | 2 | False | Audio discription | not yet
 8 | add: 30.06 | Sopheavisal Lim | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 2 | False | Meal feedback | not yet
-9 | | | | | | | |
+9 | add: 30.06 | Sopheavisal Lim | As a child, i want to have an overview of the available meals as pictures, so that I can choose the meal I want to eat | 1 | 2 | False | Meal overview | not yet
 10 | | | | | | | |
 11 | | | | | | | |
 12 | | | | | | | |
