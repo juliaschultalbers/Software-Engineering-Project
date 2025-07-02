@@ -43,14 +43,14 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 2 | add: 25.06.25 modified: 26.06.25  | Julia Schultalbers | As a manager, I want to manage who can edit the meal plan and staff schedules, so that sensitive data is protected and only relevant roles make changes.  | 2 | 1 | scheduling system | security of the system | not yet
 3 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to know in time which ingredients I need to order from the food supplier, so that the ingredients are delivered in time | 2 | 1 | False | ingredient planning | not yet
 4 | add: 25.06.25 | Kelly Xie | As a kitchen staﬀ, I want to be able to edit the meal plan, so that we can provide a varied meal plan with regional ingredients | 1 | 2 | False | variation of meals | done
-5 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to tag meals with allergens (e.g. gluten, nuts), so that the system can automatically warn , if a child is affected | 1 | 1 | favorite meal | allergen notice | not yet
-6 | add: 25.06.25 | Kevin Do | As kitchen staff, I want to track which meals were popular each week, so we can improve future meal plans based on the children's preferences | 1 | 2 | favorite meal | feedback for kitchen staff | not yet
+5 | add: 25.06.25 | Kelly Xie | As kitchen staff, I want to tag meals with allergens (e.g. gluten, nuts), so that the system can automatically warn , if a child is affected | 1 | 1 | favorite meal | allergen notice | not yet
+6 | add: 25.06.25 | Kelly Xie | As kitchen staff, I want to track which meals were popular each week, so we can improve future meal plans based on the children's preferences | 1 | 2 | favorite meal | feedback for kitchen staff | not yet
 7 | add: 30.06 | Sopheavisal Lim | As a child, I want to hear a short audio description of meals when I hover over the pictures, so that I understand better which food I am choosing. | 2 | 2 | False | Audio discription | not yet
 8 | add: 30.06 | Sopheavisal Lim | As a child, I want to give feedback on meals with smiley faces, so that the kitchen knows what I liked and didn’t like. | 1 | 2 | False | Meal feedback | not yet
 9 | add: 30.06 | Sopheavisal Lim | As a child, i want to have an overview of the available meals as pictures, so that I can choose the meal I want to eat | 1 | 2 | False | Meal overview | not yet
-10 | | | | | | | |
-11 | | | | | | | |
-12 | | | | | | | |
-13 | | | | | | | |
+10 | add: 02.07.25 | Kevin Do | As parents, we want our child to eat healthy, nutritious meals | 2 | 1 | False | Nutrition Check | not yet
+11 | add: 02.07.25 | Kevin Do | As parents, we want our child to enjoy the meals provided by the daycare center, so that they will eat enough | 1 | 1 | False | Food Quality | not yet
+12 | add: 02.07.25 | Kevin Do | As parents, we want to receive a weekly photo overview of meals and activities, so that we can talk to our child about their day | 2 | 2 | True | Insight for parents | not yet
+13 | add: 02.07.25 | Kevin Do | As parents, we want to enter our child's allergies into the system | 2 | 1 | False | Allergen notice | not yet
 14 | | | | | | | |
 15 | | | | | | | |
