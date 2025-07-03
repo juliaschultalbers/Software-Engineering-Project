@@ -108,4 +108,3 @@ Synchronisation verschiedener Modellierungstools erforderte zusätzlichen Aufwan
 
 - Do you have ideas on how to improve your teamwork?
   Für kommende Sprints ist eine noch präzisere Timeboxing-Strategie geplant, um die Effizienz der Meetings weiter zu steigern und mehr Zeit für die praktische Umsetzung zu schaffen.
-

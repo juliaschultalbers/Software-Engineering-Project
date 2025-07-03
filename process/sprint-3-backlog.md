@@ -20,13 +20,9 @@ There are four sprints. 4 of 6 team members should act as a scrum master once.
 - developer 4: Julia Schultalbers
 - developer 5: Martin Oertel
 
-## Product backlog items 
-<!--- Add the user stories you will work on in this sprint. ---> 
-- Als Entwickler*in möchte ich eine vollständige Testdokumentation erstellen, damit die Funktionalität und Korrektheit aller Systembestandteile überprüfbar ist.
-
-- Als Team möchten wir alle Modelle (Activity Diagram, Communication Diagram, EFSM, Sequence Diagram, Use Case Diagram, TAPN) überarbeiten und vereinheitlichen, damit die Konsistenz und Nachvollziehbarkeit gewährleistet ist.
-
-- Als Team möchten wir einheitliche Namenskonventionen für alle Modelle festlegen, damit die Dokumentation klar und verständlich bleibt.
+## Sprint-Schwerpunkte und Modellfokus
+<!--- Hinweis: Der Abschnitt "Product backlog items" wurde angepasst, um die tatsächlichen Schwerpunkte und inhaltlichen Ziele des jeweiligen Sprints besser abzubilden. Die ursprüngliche Vorlage sah eine Wiederholung der User Stories für jeden Sprint vor. Da jedoch in jedem Sprint unterschiedliche Modellierungs- und Qualitätssicherungsaufgaben im Vordergrund standen, ist eine präzisere Beschreibung der Sprintinhalte sinnvoller und nachvollziehbarer für die Projektdokumentation. --->
+Im dritten Sprint lag der Schwerpunkt auf der Qualitätssicherung und Überarbeitung aller bisher entwickelten Modelle. Ziel war es, die Modelle hinsichtlich Konsistenz, Verständlichkeit und Nachvollziehbarkeit zu optimieren. Dazu wurden gezielt Testdokumentationen für alle Kernfunktionen erstellt, bestehende Diagramme (Activity Diagram, Communication Diagram, EFSM, Sequence Diagram, Use Case Diagram, TAPN) überarbeitet und einheitliche Namenskonventionen eingeführt. Der Fokus lag darauf, die Modelle so zu gestalten, dass sie die Anforderungen des Projekts und die zugrundeliegenden Prozesse optimal abbilden.
 
 
 ## Sprint planing 
