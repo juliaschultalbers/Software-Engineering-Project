@@ -1,0 +1,50 @@
+-- OCL POST-CONDITIONS by KEVIN DO - TUHH 2025 SoSe - Software Engineering - Sprint 1
+
+
+
+-- all context Employee related invariants
+
+	context Employee::report_sickness(sick_days: Int)
+	post SicknessDaysIncreased:
+		self.sick_days = self.sick_days@pre + sick_days
+
+
+
+-- all context Caregiver related invariants
+
+	context Caregiver::submit_vacation_request_length(length: Int)
+	post VacationDaysUpdated:
+		self.vacation_days = self.vacation_days@pre + length
+
+
+
+-- all context Favorite_food_system/Meal-Voting related invariants
+
+	context Favorite_food_system::add_meal(mealName: String)
+	post MealWasAdded:
+		Meal.allInstances()->exists(m | m.name = mealName and m.oclIsNew())
+		
+
+	context Favorite_food_system::update_meal(mealName: String)
+	post MealWasUpdated:
+		Meal.allInstances()->exists(m | m.name = mealName)
+
+
+	context Meal::update_votes(votes: Int)
+	post VotesUpdated:
+		self.votes = votes
+
+
+	context Meal::set_to_zero()
+	post VotesReset:
+		self.votes = 0
+
+
+
+-- all context Child/Meal-Voting related invariants
+
+	context Child::vote_for_meal(meal_id: Int)
+	post MealWasVoted:
+		self.votedMeal.meal_id = meal_id
+
+

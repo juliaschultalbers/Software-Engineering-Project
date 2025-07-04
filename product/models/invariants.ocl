@@ -1,0 +1,95 @@
+-- OCL INVARIANTS by JONAS WEBER 2025 TUHH - Software Engineering - Sprint 1
+
+
+-- all context Employee related invariants
+
+context Employee
+inv VacationDaysWithinBounds:
+    self.vacation_days.oclIsInRange(0, 30)
+	
+context Employee
+inv ValidID:
+    self.emp_id > 0
+	
+context Employee
+inv SicknessDaysNonNegative:
+    self.sick_days >= 0
+
+context Employee::report_sickness(sick_days: Int)
+pre PositiveSickDays:
+    sick_days >= 0
+	
+
+
+-- all management Employee related invariants
+
+
+context Management
+inv CanOnlyApproveWhenTrue:
+    self.approve_vacation(true)
+
+
+
+--  all caregiver Employee related invariants
+
+context Caregiver
+inv VacationLengthPositive:
+    self.submit_vacation_request_length(1)
+
+
+context Child
+inv MinimumAgeToVote:
+    (2025 - self.birthday_year) >= 3 implies self.vote_for_meal(0) <> null
+
+
+
+-- all meal-voting context related invariants
+
+context Meal
+inv VotesNonNegative:
+    self.votes >= 0
+
+context Favorite_food_system::add_meal(mealName: String)
+pre NonEmptyMealName:
+    not mealName.oclIsUndefined() and mealName.size() > 0
+
+context Favorite_food_system
+inv ValidVoteReference:
+    Meal.allInstances()->exists(m | m.meal_id = self.vote_for_meal(0))
+
+
+
+-- all daycare group related invariants
+context Daycare_group
+inv AtLeastOneChild:
+    self.children_ID->size() >= 1
+
+context Daycare_group
+inv AtLeastTwoCaregivers:
+    self.caregiver_ID->size() >= 2
+
+
+
+-- all costumer context related invariants
+
+context Costumer
+inv NameNotEmpty:
+    not self.name.oclIsUndefined() and self.name.size() > 0
+
+inv AddressNotEmpty:
+    not self.address.oclIsUndefined() and self.address.size() > 0
+
+
+
+-- all parents context related invariants
+context Parent
+inv PhoneNumberHas11Digits:
+    self.phone_number.toString().size() = 11
+
+
+
+
+
+
+
+

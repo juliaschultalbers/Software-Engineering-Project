@@ -1,0 +1,59 @@
+-- OCL PRE-CONDITIONS by KEVIN DO - TUHH 2025 SoSe - Software Engineering - Sprint 1
+
+
+
+-- all context Employee related invariants
+
+	context Employee::report_sickness(sick_days: Int)
+	pre PositiveSickDays:
+		sick_days >= 0
+
+
+
+-- all context Caregiver related invariants
+	context Caregiver::submit_vacation_request_length(length: Int)
+	pre LengthPositive:
+		length > 0
+
+
+
+-- all context Favorite_food_system/Meal-Voting related invariants
+
+	context Favorite_food_system::add_meal(mealName: String)
+	pre NonEmptyMealName:
+		not mealName.oclIsUndefined() and mealName.size() > 0
+
+
+	context Favorite_food_system::update_meal(mealName: String)
+	pre NonEmptyMealName:
+		not mealName.oclIsUndefined() and mealName.size() > 0
+
+
+	context Meal::update_votes(votes: Int)
+	pre VotesNonNegative:
+		votes >= 0
+
+	pre ValidMealId:
+		Meal.allInstances()->exists(m | m.meal_id = meal_id)
+
+
+
+-- all context Child/Meal-Voting related invariants
+	
+	context Child::vote_for_meal(meal_id: Int)
+	pre IsOldEnough:
+		(2025 - self.birthday_year) >= 3
+
+
+
+-- all context Parent related invariants
+	
+	context Parent::setPhoneNumber(phone: Int)
+	pre PhoneHas11Digits:
+		phone.toString().size() = 11
+
+
+
+
+
+
