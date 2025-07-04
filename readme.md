@@ -7,11 +7,11 @@ You document your project work in this repository. A folder structure is already
 Folder | to add | to complete 
 ------- |------- |--------------
 process | - | kick-off and sprints documentations 
-process\product-increments\models | modeling artifacts | - 
-process\product-increments\tests | test suites | - 
+process\product-increments\models | modeling artifacts | Completed 
+process\product-increments\tests | test suites | Completed
 product | project proposal (as pdf) | - 
-product\models | final models | - 
-product\tests | final test suites | - 
+product\models | final models | Completed 
+product\tests | final test suites | Completed
 product\presentation | video, app, website | - 
 
 # Helpful external tools for modeling and collaborative working
