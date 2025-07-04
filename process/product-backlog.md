@@ -51,6 +51,6 @@ Nr | added modified | product owner name | User story | Story point(s) | Priorit
 10 | add: 02.07.25 | Kevin Do | As parents, we want our child to eat healthy, nutritious meals | 2 | 2 | False | Nutrition Check | done
 11 | add: 02.07.25 | Kevin Do | As parents, we want our child to enjoy the meals provided by the daycare center, so that they will eat enough | 1 | 1 | False | Food Quality | done
 12 | add: 02.07.25 | Kevin Do | As parents, we want to receive a weekly photo overview of meals and activities, so that we can talk to our child about their day | 2 | 2 | True | Insight for parents | not yet
-13 | add: 02.07.25 | Kevin Do | As parents, we want to enter our child's allergies into the system | 2 | 1 | False | Allergen notice | not yet
+13 | add: 02.07.25 | Kevin Do | As parents, we want to enter our child's allergies into the system | 2 | 1 | False | Allergen notice | done
 14 | add: 02.07.25 | Martin Oertel | As an administrative staﬀ, I want the daycare centers to be well organized and structured, so everthing runs smoothly | 3 | 1 | False | Organized system | done
 15 | add: 02.07.25 | Jonas Weber | As educational staff, I want to see the daily meal plan with pictures and dietary notes, so I can help children choose suitable meals. | 1 | 2 | True | Helping children to choose suitable meals | not yet
